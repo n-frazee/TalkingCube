@@ -3,8 +3,9 @@
 This is a little test project for myself to learn the ropes on FastAPI and the concepts of database management and user authentication.
 
 # Usage
-### Activating venv
-`python -m venv venv`
+python3 -m virtualenv env (Create env)
+source env/bin/activate -> activate environment and install packages
+Populate requirements.txt -> pip freeze > requirements.txt
 # License
 
 
