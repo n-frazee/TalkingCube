@@ -11,6 +11,8 @@ class Employee(Base):
     last_name = Column(String(50), nullable=False)
     gender = Column(String(50), nullable=False)
     hire_date = Column(Date, nullable=False)
+    password = Column(String(255), nullable=False)
+    user_name = Column(String(255), nullable=False)
 
     @property
     def id(self):
